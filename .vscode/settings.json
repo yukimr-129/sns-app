@@ -1,0 +1,11 @@
+{
+  // "prettier.requireConfig": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "vue"
+  },
+  "tailwindCSS.emmetCompletions": true
+}

@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:12-alpine
+    container_name: postgres
+    # 環境変数
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=mydb
+    # データの永続化
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+# データの永続化
+volumes:
+  postgres:
