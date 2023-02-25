@@ -1,0 +1,9 @@
+{
+    "extends": [
+      "@nuxtjs/eslint-config-typescript"
+    ],
+    "rules": {
+      "vue/no-multiple-template-root": "off",
+      "vue/multi-word-component-names": 0  // これでこの余計なチェック機能をおっふに出来る筈なのに、エラーは解消されず。
+    }
+  }
